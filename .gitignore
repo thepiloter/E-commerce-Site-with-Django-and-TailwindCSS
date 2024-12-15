@@ -8,7 +8,6 @@ __pycache__/
 # Django
 *.log
 *.sqlite3
-/db.sqlite3
 /media
 /staticfiles
 .env
@@ -29,5 +28,11 @@ Thumbs.db
 # Package Distribution
 *.egg
 *.egg-info
+
+# Build and Dist
 dist/
+!dist/styles.css
 build/
+
+# Node.js
+node_modules/
